@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="bazaar">
-  <schema id="io.github.kolunmi.Bazaar" path="/io/github/kolunmi/Bazaar/">
+<schemalist gettext-domain="lucid-store">
+  <schema id="io.lucidos.Store" path="/io/lucidos/Store/">
     <key name="hide-eol" type="b">
       <default>true</default>
       <summary>Hide EOL Entries</summary>
-      <description>Hide EOL entries and entries depending on them</description>
+      <description>Hide end-of-life applications and dependent entries</description>
     </key>
     <key name="show-only-foss" type="b">
       <default>false</default>
@@ -13,18 +13,18 @@
     </key>
     <key name="show-only-flathub" type="b">
       <default>false</default>
-      <summary>Show Only Flathub Content</summary>
-      <description>Hide applications which do not originate from Flathub</description>
+      <summary>Only Flathub Content</summary>
+      <description>Hide applications that do not originate from Flathub</description>
     </key>
     <key name="show-only-verified" type="b">
       <default>false</default>
       <summary>Show Only Verified Content</summary>
-      <description>Hide applications which are not verified on Flathub</description>
+      <description>Hide applications not verified on Flathub</description>
     </key>
     <key name="search-debounce" type="b">
       <default>true</default>
       <summary>Debounce Search Inputs</summary>
-      <description>Add a delay before searching to prevent instant replies while typing</description>
+      <description>Add a delay before searching to prevent instant responses while typing</description>
     </key>
     <key name="global-progress-bar-theme" type="s">
       <choices>
@@ -49,7 +49,7 @@
         <choice value="biromantic-flag"/>
         <choice value="disability-flag"/>
         <choice value="femboy-flag"/>
-	    <choice value="neutrois-flag"/>
+        <choice value="neutrois-flag"/>
       </choices>
       <default>'accent-color'</default>
       <summary>Global Progress Bar Theme</summary>
@@ -62,7 +62,7 @@
     <key name="window-dimensions" type="(ii)">
       <default>(1220, 900)</default>
       <summary>Saved Window Dimensions</summary>
-      <description>The window dimensions to be used by the next Bazaar window</description>
+      <description>The window dimensions to be used by the next Store window</description>
     </key>
   </schema>
 </schemalist>
