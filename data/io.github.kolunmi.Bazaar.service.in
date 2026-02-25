@@ -1,8 +1,8 @@
 [Unit]
-Description=Bazaar Service
+Description=Lucid Store Service
 PartOf=graphical-session.target
 
 [Service]
 Type=dbus
-BusName=io.github.kolunmi.Bazaar
-ExecStart=@bindir@/bazaar --no-window
+BusName=io.lucidos.Store
+ExecStart=@bindir@/org.lucidos.Store --no-window
